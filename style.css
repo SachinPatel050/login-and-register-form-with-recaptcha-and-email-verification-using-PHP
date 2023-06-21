@@ -1,0 +1,63 @@
+body{ 
+    background-image:url("background1.jpg");
+    background-size:cover;
+     } 
+     .login_form{
+         margin-top: 25%;
+      background: rgb(45, 157, 231);
+      padding: 30px; 
+         box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+         border-radius: 5px;
+     }
+     .form_btn{ 
+         background: #fb641b;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+        border: none;
+        color: #fff; 
+        width: 100% 
+      }
+      .label_txt{ 
+    font-size: 12px; 
+       }  
+       .form-control{border-radius: 25px }
+       .signup_form{ 
+        background: rgb(45, 157, 231);
+        padding-left: 25px; 
+        padding-right: 25px; 
+          padding-bottom:5px; 
+         box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+         border-radius: 5px
+        }
+        .logo{ 
+          height: 150px; 
+          width: auto; 
+            display: block;
+      margin-left: auto;
+      margin-right: auto;
+         }
+         .errmsg{ 
+      margin: 2px auto;
+      border-radius: 5px;
+      border: 1px solid red;
+      background: pink;
+      text-align: left;
+      color: brown;
+      padding: 1px;
+    }
+    .successmsg{
+      margin: 5px auto;
+      border-radius: 5px;
+      border: 1px solid green;
+      background: #33CC00;
+      text-align: left;
+      color: white;
+      padding: 10px;
+    }
+    .g-recaptcha {
+        transform:scale(0.77);
+        -webkit-transform:scale(0.77);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+        margin: auto;
+        display: block;
+    }
